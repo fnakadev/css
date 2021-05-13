@@ -1,0 +1,54 @@
+.tabela {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabela td, .tabela th {
+    padding: 15px 10px;
+    border: 1px solid #ccc;
+}
+
+.tabela th {
+    background-color: #ececec;
+
+    font-size: 1.1em;
+    font-weight: bold;
+    text-align: left;
+}
+
+.tabela tr:hover {
+    background-color: #faffcc;
+}
+
+/*----------------------------------*\
+	BOTAO
+\*----------------------------------*/
+.botao {
+	display: inline-block;
+	padding: 0.8em 1.2em;
+
+	background-color: #bbb;
+	color: #fff;
+	border: none;
+
+	line-height: normal;
+	font-size: 1em;
+	text-decoration: none;
+}
+
+.botao:hover, .botao:focus {
+	background-color: #aaa;
+	color: #fff;
+
+	text-decoration: none;
+}
+
+.botao--principal {
+	border-radius: 10px;
+
+	background-color: #004b86;
+}
+
+.botao--principal:hover, .botao--principal:focus {
+	background-color: #003b6a;
+}
