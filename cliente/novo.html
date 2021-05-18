@@ -1,35 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Novo Cliente</title>
+
+    <link rel="stylesheet" href="../css/form.css">
 </head>
+
 <body>
     <header>
-        <h1>Sistema</h1>
+        <h1>App</h1>
     </header>
+
+    <div class="form-style-2">
+        <div class="form-style-2-heading">Novo Cliente</div>
+        <form action="" method="post">
+            <label for="nome">
+                <span>Nome <span class="required">*</span></span>
+                <input type="text" class="input-field" name="nome" value="" />
+            </label>
+            <label for="dataNascimento">
+                <span>Data de Nascimento <span class="required">*</span></span>
+                <input type="text" class="input-field" name="dataNascimento" value="" />
+            </label>
+            <label for="status">
+                <span>Status</span>
+                <select name="status" class="select-field">
+                    <option>Selecione</option>
+                    <option>Ativo</option>
+                    <option>Inativo</option>
+                </select>
+            </label>
+
+            <label>
+                <span> </span>
+                <input type="submit" value="Salvar" />
+            </label>
+        </form>
+    </div>
+
     
-    <h2>Novo Cliente</h2>
-    <form action="#" method="GET">
-        <label for="nome">Nome</label>
-        <input type="text" id="nome" name="nome" required />
-        <br />
-        <label for="dataNascimento">Data Nascimento</label>
-        <input type="date" id="dataNascimento" name="dataNascimento" required />
-        <br />
-        <label for="status">Status</label>
-        <select id="status" name="status">
-            <option>Selecione</option>
-            <option>Ativo</option>
-            <option>Inativo</option>
-        </select>
-        <br />
-        <input type="submit" value="Salvar" />
-    </form>
     <footer>
         <p>&copy; Naka. Todos os direitos reservados.</p>
     </footer>
 </body>
+
 </html>
